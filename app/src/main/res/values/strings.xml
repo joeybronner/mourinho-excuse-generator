@@ -1,11 +1,5 @@
 <resources>
     <string name="app_name">Mourinho\u0027s Excuse Generator</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_random">Get it random!</string>
-    <string name="title_activity_splash_screen">Mourinho\u0027s Excuse Generator</string>
-
-    <color name="indigo">#303F9F</color>
-    <color name="white">#ffffff</color>
     <string name="title_activity_generated_excuse">GeneratedExcuse</string>
 </resources>
