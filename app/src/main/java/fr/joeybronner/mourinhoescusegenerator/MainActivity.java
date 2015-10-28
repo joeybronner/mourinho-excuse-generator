@@ -2,6 +2,8 @@ package fr.joeybronner.mourinhoescusegenerator;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,15 +19,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Action Bar color
-        getSupportActionBar().hide();
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.ColorPrimary)));
 
-        Button btRandom = (Button) findViewById(R.id.btRandom);
+        /*Button btRandom = (Button) findViewById(R.id.btRandom);
         btRandom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openView(getBaseContext(), GeneratedExcuse.class);
             }
-        });
+        });*/
 
     }
 
