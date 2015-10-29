@@ -13,7 +13,7 @@ import fr.joeybronner.mourinhoescusegenerator.utils.Utils;
 
 public class ListOfSentences extends AppCompatActivity {
 
-    ListView listLine;
+    ListView listSentences;
     ArrayAdapter<String> adapter;
     int screenNumber = 1;
     String[] allLines;
@@ -24,7 +24,7 @@ public class ListOfSentences extends AppCompatActivity {
         setContentView(R.layout.activity_list_of_sentences);
 
         // Action Bar color
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.ColorPrimary)));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.blueChelsea)));
 
         if (Constants.str1.equals("")) {
             screenNumber = 1;
@@ -41,25 +41,25 @@ public class ListOfSentences extends AppCompatActivity {
         }
 
         // Load lines
-        listLine = (ListView) findViewById(R.id.listLine);
+        listSentences = (ListView) findViewById(R.id.listLine);
 
         // Assign adapter to ListView
         adapter = new ArrayAdapter<String>(this, R.layout.textview_style, allLines);
-        listLine.setAdapter(adapter);
-        listLine.setTextFilterEnabled(true);
+        listSentences.setAdapter(adapter);
+        listSentences.setTextFilterEnabled(true);
 
         // ListView Item Click Listener
-        listLine.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listSentences.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (screenNumber == 1) {
-                    Constants.str1 = listLine.getItemAtPosition(position).toString();
+                    Constants.str1 = listSentences.getItemAtPosition(position).toString();
                     Utils.openView(getBaseContext(), ListOfSentences.class);
                 } else if (screenNumber == 2) {
-                    Constants.str2 = listLine.getItemAtPosition(position).toString();
+                    Constants.str2 = listSentences.getItemAtPosition(position).toString();
                     Utils.openView(getBaseContext(), ListOfSentences.class);
                 } else if (screenNumber == 3) {
-                    Constants.str3 = listLine.getItemAtPosition(position).toString();
+                    Constants.str3 = listSentences.getItemAtPosition(position).toString();
                     Utils.openView(getBaseContext(), GeneratedExcuse.class);
                 }
             }

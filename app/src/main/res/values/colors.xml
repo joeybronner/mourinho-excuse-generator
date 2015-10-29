@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ColorPrimary">#0A1E7D</color>
-    <color name="ColorPrimaryDark">#0A1E7D</color>
-    <color name="indigo">#303F9F</color>
+    <color name="blueChelsea">#0A1E7D</color>
     <color name="white">#ffffff</color>
 </resources>

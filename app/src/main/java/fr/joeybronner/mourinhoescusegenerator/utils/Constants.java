@@ -1,13 +1,6 @@
 package fr.joeybronner.mourinhoescusegenerator.utils;
 
-import android.content.Context;
-import android.content.Intent;
-
 import fr.joeybronner.mourinhoescusegenerator.R;
-
-/**
- * Created by joeybronner on 25/10/15.
- */
 
 public class Constants {
 
@@ -58,5 +51,14 @@ public class Constants {
     public static String str1 = "";
     public static String str2 = "";
     public static String str3 = "";
+
+    public static int[] mbgIds = new int[] {
+            R.drawable.back1,
+            R.drawable.back2,
+            R.drawable.back3,
+            R.drawable.back4,
+            R.drawable.back5,
+            R.drawable.back6
+    };
 
 }

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:focusableInTouchMode="true"
-    android:background="@color/ColorPrimary"
+    android:background="@color/blueChelsea"
     android:layout_height="match_parent"
     tools:context="fr.joeybronner.mourinhoescusegenerator.ListOfSentences">
 
