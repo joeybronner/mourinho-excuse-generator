@@ -1,11 +1,17 @@
 package fr.joeybronner.mourinhoescusegenerator.utils;
 
+import android.content.Context;
+import android.content.Intent;
+
+import fr.joeybronner.mourinhoescusegenerator.R;
+
 /**
  * Created by joeybronner on 25/10/15.
  */
+
 public class Constants {
 
-    String[] SENTENCE_1 = {
+    public static String[] SENTENCE_1 = {
             "The referee",
             "The crowd",
             "John Terry",
@@ -20,7 +26,7 @@ public class Constants {
             "The ball boy"
     };
 
-    String[] SENTENCE_2 = {
+    public static String[] SENTENCE_2 = {
             "did not listen to",
             "underestimated the size of",
             "turned a blind eye to",
@@ -34,7 +40,7 @@ public class Constants {
             "ignored"
     };
 
-    String[] SENTENCE_3 = {
+    public static String[] SENTENCE_3 = {
             "Diego Costa",
             "my ego",
             "huge sums of cash",
@@ -48,4 +54,9 @@ public class Constants {
             "my inate superiority",
             "the cosmic principle of karma"
     };
+
+    public static String str1 = "";
+    public static String str2 = "";
+    public static String str3 = "";
+
 }

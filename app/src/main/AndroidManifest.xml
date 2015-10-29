@@ -10,6 +10,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +20,17 @@
         </activity>
         <activity
             android:name=".GeneratedExcuse"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_generated_excuse"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.joeybronner.mourinhoescusegenerator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ListOfSentences"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_list_of_sentences"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
