@@ -6,28 +6,28 @@
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-4c6cc322fcdc0dadedd47fef420f97f9b91cea37.jar" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-4c6cc322fcdc0dadedd47fef420f97f9b91cea37.jar" />
     </item>
     <item
         jar="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/debug/classes-c86f1aaaf1e8626ee3ed5b82ccac58a6aa24492b.jar" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/release/classes-c86f1aaaf1e8626ee3ed5b82ccac58a6aa24492b.jar" />
     </item>
     <item
         jar="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/debug/classes-bdccc52bd8de068174177b86d7d3b7f9ab2de48e.jar" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/release/classes-bdccc52bd8de068174177b86d7d3b7f9ab2de48e.jar" />
     </item>
     <item
         jar="/Users/joeybronner/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-bf9d5b7e955cec86a0f32f836a6a32c8a44f4880.jar" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/MourinhoEscuseGenerator/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-bf9d5b7e955cec86a0f32f836a6a32c8a44f4880.jar" />
     </item>
 
 </items>
