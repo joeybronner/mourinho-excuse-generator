@@ -3,4 +3,5 @@
     <string name="action_random">Get it randomly!</string>
     <string name="title_activity_generated_excuse">Your own generated excuse</string>
     <string name="title_activity_list_of_sentences">Pick a sentence</string>
+    <string name="title_activity_main">hum...</string>
 </resources>
