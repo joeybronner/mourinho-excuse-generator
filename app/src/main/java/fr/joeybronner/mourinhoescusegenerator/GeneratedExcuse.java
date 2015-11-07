@@ -6,14 +6,13 @@ import android.os.Bundle;
 import android.text.Html;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.Random;
 
 import fr.joeybronner.mourinhoescusegenerator.utils.Constants;
 
 public class GeneratedExcuse extends AppCompatActivity {
-
-
 
     Random rgenerator = new Random();
 
@@ -22,7 +21,7 @@ public class GeneratedExcuse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_generated_excuse);
         LinearLayout rootView=(LinearLayout) findViewById(R.id.layoutContainer);
-        WebView wv = (WebView) findViewById(R.id.webView);
+        TextView tvSentence = (TextView) findViewById(R.id.tvSentence);
 
         // Hide Action Bar
         getSupportActionBar().hide();
@@ -35,16 +34,11 @@ public class GeneratedExcuse extends AppCompatActivity {
         }
 
         // Apply text
-        String youtContentStr = String.valueOf(Html
-                .fromHtml("<![CDATA[<body style=\"text-align:justify;color:#ffffff;font-size:23pt;font-weight:bold; \">"
-                        + Constants.str1.toUpperCase() + " "
+        String fullSentence = Constants.str1.toUpperCase() + " "
                         + Constants.str2.toUpperCase() + " "
-                        + Constants.str3.toUpperCase() + "."
-                        + "</body>]]>"));
+                        + Constants.str3.toUpperCase() + ".";
 
-        wv.setBackgroundColor(Color.TRANSPARENT);
-        wv.loadData(youtContentStr, "text/html", "utf-8");
-        wv.setScrollContainer(false);
+        tvSentence.setText(fullSentence);
 
         // Set randomly a background image
         rootView.setBackgroundResource(Constants.mbgIds[rgenerator.nextInt(Constants.mbgIds.length)]);
