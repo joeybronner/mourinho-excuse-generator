@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mourinho\u0027s Excuse Generator</string>
-    <string name="action_random">Get it randomly!</string>
+    <string name="action_random">RANDOM</string>
     <string name="title_activity_generated_excuse">Your own generated excuse</string>
     <string name="title_activity_list_of_sentences">Pick a sentence</string>
-    <string name="title_activity_main">hum...</string>
+    <string name="title_activity_main">Hum...</string>
 </resources>
