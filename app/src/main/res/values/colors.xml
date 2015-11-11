@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="blueChelsea">#0A1E7D</color>
     <color name="white">#ffffff</color>
     <color name="blueChelsea_dark">#071863</color>
     <color name="pink">#E91E63</color>
+
+    <color name="yellow">#FFBB00</color>
+    <color name="shadowone">#08000000</color>
+    <color name="shadowtwo">#09000000</color>
+    <color name="shadowthree">#10000000</color>
+    <color name="shadowfour">#11000000</color>
+    <color name="shadowfive">#12000000</color>
+    <color name="shadowsix">#13000000</color>
+    <color name="shadowseven">#14000000</color>
+    <color name="shadoweight">#15000000</color>
+
+
 </resources>
